@@ -7,7 +7,9 @@ public class TesteCondicional {
         if ( idade >= 18) {
             System.out.println("Voce tem mais de 18 anos "); // Testando condição
         }
-
+        else {
+            System.out.println("Infelizmente voce não pode entrar ");
+        }
     }
 
 }
